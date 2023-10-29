@@ -7,7 +7,7 @@ Esta herramienta permite resolver y visualizar gráficamente problemas económic
 - [Instalación y Uso](#instalación-y-uso)
 
 ## Descripción
-Con este proyecto, los usuarios podrán visualizar la solución a ejercicios económicos relacionados con el tema de Tarifa Lineal de Dos Tramos. El proyecto permite no solo realizar cálculos necesarios para entender estos problemas, sino también visualizarlos gráficamente para obtener insights más claros. 
+Con este proyecto, los usuarios podrán visualizar la solución a ejercicios económicos relacionados con el tema de Tarifa Lineal de Dos Tramos. El proyecto permite no solo realiza cálculos necesarios para entender estos problemas, sino también permite visualizarlos gráficamente para obtener insights más claros. 
 
 ## Características
 * Fácil de Usar: Diseñado para ser intuitivo y fácil de usar, sin requerir conocimientos previos en programación.
