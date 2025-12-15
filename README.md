@@ -1,20 +1,60 @@
-# Herramienta de desarrollo de ejercicios Económicos: Tarifa Lineal de Dos Tramos
-Esta herramienta permite resolver y visualizar gráficamente problemas económicos relacionados con tarifas Lineal de dos tramos.
+# 📊 Solucionador de Ejercicios de Monopolio
 
-## Contenido
-- [Descripción](#descripción)
-- [Características](#características)
-- [Instalación y Uso](#instalación-y-uso)
+Scripts en Python para resolver automáticamente ejercicios de microeconomía sobre monopolios. Desarrollado como proyecto de aprendizaje durante mis primeros pasos con Python.
 
-## Descripción
-Con este proyecto, los usuarios podrán visualizar la solución a ejercicios económicos relacionados con el tema de Tarifa Lineal de Dos Tramos. El proyecto permite no solo realiza cálculos necesarios para entender estos problemas, sino también permite visualizarlos gráficamente para obtener insights más claros. 
+**Resuelve dos tipos de problemas:**
 
-## Características
-* Fácil de Usar: Diseñado para ser intuitivo y fácil de usar, sin requerir conocimientos previos en programación.
+- Discriminación de Precios de Tercer Grado
+- Tarifa Lineal de Dos Tramos
 
-## Instalación y Uso
-Para utilizar esta herramienta:
+## 🎯 Qué hace
 
-1. Descargar el notebook desde este repositorio.
-2. Abrir el notebook en Google Colab o en un entorno local que soporte notebooks (como Jupyter).
-3. Seguir las instrucciones dentro del notebook para ingresar datos y obtener resultados.
+Estos notebooks automatizan los cálculos de ejercicios de monopolio. Ingresas las ecuaciones de demanda y costos, y el script hace todo el trabajo matemático:
+
+- Calcula cantidades y precios óptimos
+- Encuentra el punto de equilibrio (IMG = CMG)
+- Muestra los resultados en formato LaTeX
+- Genera gráficos (en el caso de tarifas de dos tramos)
+
+## 📦 Lo que incluye
+
+### Discriminación de Tercer Grado
+
+- Hasta 3 segmentos de demanda
+- Hasta 3 plantas de producción
+- Calcula ingresos y costos marginales
+- Encuentra cantidades y precios por segmento
+- Compara con escenario de competencia perfecta
+
+### Tarifa Lineal de Dos Tramos
+
+- Múltiples grupos de consumidores
+- Calcula precio de uso (P) y cargo fijo (A)
+- Genera gráficos de la solución
+- Entrada interactiva de datos
+
+## Ejemplos de uso
+
+### Discriminación de Tercer Grado
+
+Abre `Discriminación_de_tercer_grado.ipynb` y sigue las instrucciones. Básicamente:
+
+1. Define cuántos mercados y plantas tienes
+2. Ingresa las ecuaciones de demanda (formato: `q = 180 - 3/2 * p`)
+3. Ingresa las ecuaciones de costo (formato: `CT = 60 * q + 4200`)
+4. Ejecuta y obtén los resultados
+
+### Tarifa de Dos Tramos
+
+Abre `Tarifa lineal de dos tramos.ipynb`:
+
+1. Ingresa el número de grupos de consumidores
+2. Ingresa las demandas lineales
+3. Ingresa la función de costo
+4. El notebook calcula P, A y genera un gráfico
+
+---
+
+Hecho por [Johan Escobar](https://www.linkedin.com/in/johan-er/) • [GitHub](https://github.com/JohanEsR17)
+
+*Proyecto de aprendizaje de Python aplicado a microeconomía*
